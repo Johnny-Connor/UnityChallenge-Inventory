@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dce720b9a2731ed498f6ae9b1ab0171e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - discard: {fileID: 8300000, guid: 9b8d376ba76fce64d86da39cf5128c4e, type: 3}
+  - holdRelease: {fileID: 8300000, guid: d3c27dcab0bf644438e4dbe1a6459e6e, type: 3}
+  - move: {fileID: 8300000, guid: 50f5196e565b0db4ab11fe0fa3784b91, type: 3}
+  - randomize: {fileID: 8300000, guid: 98f35ee6bf3cee7428ef51dedef9acb6, type: 3}
+  - itemNameText: {instanceID: 0}
+  - selector: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

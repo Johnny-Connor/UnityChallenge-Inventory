@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8554326114044679316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8554326114044679319}
+  - component: {fileID: 8554326114044679313}
+  - component: {fileID: 8554326114044679318}
+  - component: {fileID: 8554326114044679312}
+  m_Layer: 5
+  m_Name: Slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8554326114044679319
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554326114044679316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 7.4000006, y: 7.4000006, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -353.45, y: 141.37904}
+  m_SizeDelta: {x: 16, y: 16}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8554326114044679313
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554326114044679316}
+  m_CullTransparentMesh: 0
+--- !u!114 &8554326114044679318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554326114044679316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 3201171443852889957, guid: afc7cf6fdaab47b45bd40d0413c351e0,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 1
+  m_PixelsPerUnitMultiplier: 16
+--- !u!114 &8554326114044679312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554326114044679316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad61b6bb3d0a8347ace26ef12959306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyIcon: {fileID: 21300000, guid: abffcce433b89cb48ac1e56e8abc696d, type: 3}
+  iDIcons:
+  - {fileID: 2895851341850221060, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 4871671902088382297, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 6045717318376029101, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 2563640233595899240, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -4892923652381342644, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 2184880335814091067, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 4805356067004036071, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -698806176900232572, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -8222804978618986841, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -1418959144637960120, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 8904340598477169734, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 8704109326161713074, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 1222392401253110206, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -4203986514235289193, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -4072570004555167811, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 3841652363070933675, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -5165315445903269109, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -4941339582585766906, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -5526711798185410969, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 3201171443852889957, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 5412837303337762178, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -7835836508833852751, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -5242466668486895995, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -1143692319712331975, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 1650673419970002103, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 8537629517149920215, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -5931756230211312833, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -3992928179312848398, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 2337030766495217302, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 8792731393857238177, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -8246876825927067990, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 1806698290121772860, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -7768452817126495020, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -5637253344795675828, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 519403361499389023, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 8949195861942457327, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -1187380044480115333, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 9144970265141054846, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -3876826887118182873, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -1949697269746364587, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 8691058142762278430, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -7197855201978762424, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 5472194380032798429, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 1971605252050688537, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 6105548757413778287, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -3085493876977935484, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -1079437305698895096, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -4264563050494661156, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 1850572941908946476, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 6714384836282301461, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 5491981270420459852, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -1191684862145664731, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 3289202971480328108, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: 6228347328878983851, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  - {fileID: -2486121798047674311, guid: afc7cf6fdaab47b45bd40d0413c351e0, type: 3}
+  iDItemName:
+  - Wood Dagger
+  - Wood Bow
+  - Wood Spear
+  - Wood Shovel
+  - Iron Sword
+  - Iron Axe
+  - Iron Pickaxe
+  - Golden Sword
+  - Arrow
+  - Poisonous Arrow
+  - Robe
+  - Wood Armor
+  - Iron Armor
+  - Wood Shield
+  - Boots
+  - Wood Helmet
+  - Wood Staff
+  - Ruby Staff
+  - Magic Ring
+  - Magic Necklace
+  - Health Potion
+  - Big Health Potion
+  - Mana Potion
+  - Antidote
+  - Coins
+  - Ruby
+  - Wood Chest
+  - Key
+  - Raw Beef
+  - Apple
+  - Carrot
+  - Sunflower
+  - Cooked Fish
+  - Memory Disk
+  - Gear
+  - Weird Balloon
+  - Heart Pillow
+  - Water
+  - Rock
+  - Cooked Fowl
+  - Iron Dagger
+  - Iron Dagger (Enchanted)
+  - Iron Axe (Enchanted)
+  - Wood Shield (Enchanted)
+  - Viking Mask
+  - Demon Eye
+  - Red Cross
+  - Bloody Dagger
+  - Wood Shield (Worn Out)
+  - Special Mushroom
+  - Fermented Demon Eye
+  - Slime
+  - Wood Box
+  - Iron Box
+  - Bronze Box
+  spriteStoredID: -1
